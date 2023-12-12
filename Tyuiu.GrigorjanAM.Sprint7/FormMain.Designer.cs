@@ -30,7 +30,7 @@ namespace Tyuiu.GrigorjanAM.Sprint7
         private void InitializeComponent()
         {
             this.panelButtons_GAM = new System.Windows.Forms.Panel();
-            this.panel1 = new System.Windows.Forms.Panel();
+            this.panelMain_GAM = new System.Windows.Forms.Panel();
             this.SuspendLayout();
             // 
             // panelButtons_GAM
@@ -41,20 +41,20 @@ namespace Tyuiu.GrigorjanAM.Sprint7
             this.panelButtons_GAM.Size = new System.Drawing.Size(884, 87);
             this.panelButtons_GAM.TabIndex = 0;
             // 
-            // panel1
+            // panelMain_GAM
             // 
-            this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel1.Location = new System.Drawing.Point(0, 87);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(884, 374);
-            this.panel1.TabIndex = 1;
+            this.panelMain_GAM.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panelMain_GAM.Location = new System.Drawing.Point(0, 87);
+            this.panelMain_GAM.Name = "panelMain_GAM";
+            this.panelMain_GAM.Size = new System.Drawing.Size(884, 374);
+            this.panelMain_GAM.TabIndex = 1;
             // 
             // FormMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(884, 461);
-            this.Controls.Add(this.panel1);
+            this.Controls.Add(this.panelMain_GAM);
             this.Controls.Add(this.panelButtons_GAM);
             this.Name = "FormMain";
             this.Text = "Каталог видео-клипов";
@@ -65,7 +65,7 @@ namespace Tyuiu.GrigorjanAM.Sprint7
         #endregion
 
         private System.Windows.Forms.Panel panelButtons_GAM;
-        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Panel panelMain_GAM;
     }
 }
 
