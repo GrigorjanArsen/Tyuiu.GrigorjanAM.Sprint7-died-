@@ -58,6 +58,7 @@ namespace Tyuiu.GrigorjanAM.Sprint7
                     {
                         dataGridViewBase_GAM.Rows[i].Cells[j].Value = matrix[i, j];
                         dataGridViewBase_GAM.Rows[i].Cells[j].Selected = false;
+
                     }
                 }
             }
